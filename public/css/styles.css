@@ -1,0 +1,22 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.parallax {
+  background-image: url('/images/background.jpg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding: 20px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
